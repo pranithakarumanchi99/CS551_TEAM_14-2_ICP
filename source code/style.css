@@ -1,0 +1,45 @@
+
+body{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background : linear-gradient( darkblue, lightseagreen, blue, cornflowerblue 90%) fixed;
+   // background: -webkit-gradient(linear,bottom, color-stop(50%,blueviolet), color-stop(50%,#00FFFF)) fixed ;
+    // background: -webkit-gradient(linear,bottom, color-stop(50%,#141414), color-stop(50%,#333), color-stop(0%,#888));
+    //background: -webkit-gradient(linear, left top, left bottom, from(blue), to(lightseagreen)) fixed;
+}
+.weatherModule {
+    margin: auto;
+    background: #ffffff;
+    height: 450px;
+    width: 350px;
+    border: 2px dashed #ccc;
+    padding: 1em;
+    border-color: white;
+}
+.button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button3 {
+    background-color: deeppink;
+    color: white;
+    border: 2px solid deeppink;
+    border-radius: 30px;
+}
+
+.button3:hover {
+    background-color: white;
+    color: black;
+}
