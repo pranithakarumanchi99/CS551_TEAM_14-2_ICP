@@ -1,4 +1,4 @@
-package com.example.samhitha.translateapplication;
+package com.example.pranitha.translateapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         boolean validationFlag = false;
         //Verify if the username and password are not empty.
         if(!userName.isEmpty() && !password.isEmpty()) {
-            if(userName.equals("samhitha@gmail.com") && password.equals("Samhitha")) {
+            if(userName.equals("pranitha") && password.equals("abc")) {
                 validationFlag = true;
                 Log.d("Username",userName);
                 Log.d("Password",password);
