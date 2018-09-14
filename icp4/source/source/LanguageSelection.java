@@ -1,8 +1,6 @@
-package com.example.samhitha.translateapplication;
+package com.example.pranitha.translateapplication;
 
-/**
- * Created by samhitha on 2/8/2018.
- */
+
 
 import android.content.Context;
 
