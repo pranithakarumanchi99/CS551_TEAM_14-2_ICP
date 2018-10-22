@@ -6,10 +6,10 @@ const MongoClient = require('mongodb').MongoClient;
 var ObjectId = require('mongodb').ObjectID;
 
 // Connection URL
-const url = 'mongodb://sai.kalyan552:123456a@ds237713.mlab.com:37713/saikalyandb';
+const url = 'mongodb://pranitha:123456a@ds237713.mlab.com:37713/saikalyandb';
 
 // Database Name
-const dbName = 'saikalyandb';
+const dbName = 'pranitha';
 
 //Body Parser is used to parse the incomeing request.
 app.use(bodyParser.urlencoded({ extended: false }));
